@@ -197,8 +197,7 @@
 
 \newcommand{\entry}[4]{% First argument for the leftmost date(s) text, second is for the bold entry heading, third is for the bold right-aligned entry qualifier and the fourth is for the entry description
 	\parbox[t]{0.175\textwidth}{% 17.5% of the text width of the page
-		\flushleft
-		\textbf{#3}\linebreak % Leftmost company name
+		\flushleft\textbf{#3}\linebreak % Leftmost company name
 		#1 % Leftmost entry date(s) text
 	}%
 	&\parbox[t]{0.825\textwidth}{% 82.5% of the text width of the page
